@@ -1,5 +1,5 @@
 # 🌿 AI Nutrition & Diet Planner
-### Production-Grade Multi-Agent System using LangGraph
+### Multi-Agent System using LangGraph
 
 ---
 
