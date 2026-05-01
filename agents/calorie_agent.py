@@ -1,11 +1,4 @@
-"""
-agents/calorie_agent.py — Agent 3: Calorie & Macro Estimation.
 
-- BMR via Mifflin-St Jeor equation
-- TDEE = BMR x Physical Activity Level
-- Target: TDEE-500 (loss), TDEE+400 (gain), TDEE (maintain)
-- LLM computes optimal macro split in grams
-"""
 
 from __future__ import annotations
 import json, re
