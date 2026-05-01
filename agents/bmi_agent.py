@@ -1,10 +1,4 @@
-"""
-agents/bmi_agent.py — Agent 2: BMI Calculation & Health Analysis.
 
-- Calculates BMI: weight(kg) / height(m)^2
-- Classifies: Underweight / Normal / Overweight / Obese
-- LLM generates personalised health interpretation
-"""
 
 from __future__ import annotations
 from graph.state import NutritionState
@@ -39,12 +33,7 @@ Patient: Age {age}, {gender}, Weight {weight}kg, Height {height}cm
 BMI: {bmi_val} ({category}) | Goal: {goal}
 Medical conditions: {', '.join(diseases) if diseases else 'None'}
 
-Write a warm, personalised BMI health interpretation in 3-4 sentences.
-- Explain what this BMI means for them personally
-- Flag any health risks considering their conditions
-- Motivate them toward their goal
-- Write as flowing prose (no bullet points, no headers)
-"""
+
 
     response = get_llm().invoke(prompt)
 
